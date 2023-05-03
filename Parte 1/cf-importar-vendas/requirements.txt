@@ -1,0 +1,7 @@
+# Function dependencies, for example:
+# package>=version
+google-cloud-pubsub>=2.6.1
+google-cloud-storage
+pandas
+flask
+openpyxl
