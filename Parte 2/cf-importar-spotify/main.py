@@ -8,8 +8,8 @@ from secrets import *
 url = "https://accounts.spotify.com/api/token"
 headers = {}
 data = {}
-clientId = 'e189ba9d6b95480b9e2ff99cce19b0df'
-clientSecret = '27d7e4a05bd7427f9643a7d0c7d07780'
+clientId = os.environ["CLIENT_ID"]
+clientSecret = os.environ["CLIENT_SECRET"]
 dataHackersId = '1oMIHOXsrLFENAeM743g93'
 searchQuery = "data%20hackers"
 searchShow = f"https://api.spotify.com/v1/search?query={searchQuery}&type=show&include_external=audio&market=BR&offset=0&limit=50"
